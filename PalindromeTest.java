@@ -13,7 +13,6 @@ public class PalindromeTest {
 		
 	}
 	
-	
 	public static String getInput() {
 		Scanner in = new Scanner(System.in);
 		System.out.println("Enter a string");
@@ -40,8 +39,9 @@ public class PalindromeTest {
 				isPalindrome = false;
 				break;
 			}
-		i++;
+			i++;
 		} 
+		
 		return isPalindrome;
 	}
 }
