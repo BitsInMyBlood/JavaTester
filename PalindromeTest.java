@@ -1,5 +1,7 @@
-package testing;
+package net.thisbit.javatester;
+
 import java.util.Scanner;
+
 public class PalindromeTest {
 	
 	public static void main(String[] args) {
